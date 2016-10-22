@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title="@string/app_name"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_plus_circle_outline"
+        android:title="Add"
+        app:showAsAction="ifRoom"/>
+
+</menu>
